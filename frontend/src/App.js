@@ -1,6 +1,6 @@
 import React, { Component } from "react"
 
-const API_URL = "http://localhost:8000"
+const API_URL = "https://backend-fjjtoudnal.now.sh"
 
 class App extends Component {
   constructor(props) {
