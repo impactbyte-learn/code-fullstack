@@ -2,6 +2,9 @@
 
 Simple social media to communicate between users through text posts.
 
+- Access it on <http://haidar-full-stack.surge.sh>
+- API is on <https://backend-fjjtoudnal.now.sh>
+
 --------------------------------------------------------------------------------
 
 ## Features
