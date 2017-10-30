@@ -1,4 +1,5 @@
 import React, { Component } from "react"
+import { Container } from "reactstrap"
 
 import Content from "./Content"
 
@@ -22,9 +23,9 @@ export default class App extends Component {
 
   render() {
     return (
-      <div id="container">
+      <Container>
         <Content data={this.state.data} />
-      </div>
+      </Container>
     )
   }
 }

@@ -1,20 +1,17 @@
 import React, { Component } from "react"
 
+import { Row } from "reactstrap"
+
+import User from "./User"
+
 export default class Content extends Component {
   render() {
     return (
-      <div>
+      <Row>
         {this.props.data.map(user => {
-          return (
-            <div key={user.id}>
-              <h3>{user.name}</h3>
-              <h3>{user.username}</h3>
-              <h3>{user.email}</h3>
-              <br />
-            </div>
-          )
+          return <User user={user} />
         })}
-      </div>
+      </Row>
     )
   }
 }
