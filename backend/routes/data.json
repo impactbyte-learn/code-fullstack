@@ -1,0 +1,14 @@
+[
+  {
+    "id": 0,
+    "name": "Admin",
+    "username": "admin",
+    "email": "admin@impactbyte.com"
+  },
+  {
+    "id": 1,
+    "name": "M Haidar Hanif",
+    "username": "mhaidarh",
+    "email": "me@mhaidarhanif.com"
+  }
+]
