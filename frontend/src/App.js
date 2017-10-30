@@ -10,6 +10,18 @@ class App extends Component {
     }
   }
 
+  async getInitialState() {
+    const RESPONSE = await fetch(API_URL)
+    const DATA = await RESPONSE.json()
+    console.log(API_URL)
+    console.log(DATA)
+    this.setState(state => {
+      return {
+        data: DATA
+      }
+    })
+  }
+
   render() {
     return (
       <div id="container">
