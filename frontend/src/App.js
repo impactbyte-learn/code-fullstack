@@ -21,7 +21,7 @@ class App extends Component {
   render() {
     return (
       <div id="container">
-        <p>{JSON.stringify(this.state.data)}</p>
+        <h1>{JSON.stringify(this.state.data)}</h1>
       </div>
     )
   }
