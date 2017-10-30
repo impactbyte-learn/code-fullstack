@@ -1,0 +1,21 @@
+{
+  "name": "frontend",
+  "version": "1.0.0",
+  "description": "Frontend",
+  "main": "index.js",
+  "private": true,
+  "dependencies": {
+    "react": "^16.0.0",
+    "react-dom": "^16.0.0",
+    "react-scripts": "1.0.14"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "keywords": ["frontend"],
+  "author": "M Haidar Hanif <npm@mhaidarhanif.com> (https://mhaidarhanif.com)",
+  "license": "MIT"
+}
